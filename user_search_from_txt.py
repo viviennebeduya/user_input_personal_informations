@@ -7,7 +7,7 @@ with open ("./user_informations.txt", "r") as informations:
     search_name = []
 
     for line in lines:
-        if search_input in line: #searched, start collect
+        if search_input.lower() in line: #searched, start collect
             searched = True
         if searched: # searched, collect continuous
             search_name.append(line)
