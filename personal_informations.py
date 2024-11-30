@@ -1,4 +1,4 @@
-with open("./user_informations.txt", "w") as informations:
+with open("./user_informations.txt", "a") as informations:
     while True:
         print("Please provide the following information:")
         while True:
