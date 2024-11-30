@@ -5,7 +5,7 @@ with open("./user_informations.txt", "w") as informations:
         print("Please provide the following information:")
         while True:
             full_name = input ("Full Name: ")
-            if re.fullmatch(r"[A-Za-z\s]+",full_name): #regex-make sure the input is valid only if the pattern is followed
+            if re.fullmatch(r"[A-Za-z\s.]+",full_name): #regex-make sure the input is valid only if the pattern is followed
                 break
             print ("Make sure to fill this in with valid information (without digits or special characters).")
         while True:
@@ -25,7 +25,7 @@ with open("./user_informations.txt", "w") as informations:
             print ("Make sure to fill this in with valid information.")
         while True:
             address = input ("Address: ")
-            if "City" in address:
+            if "City" in address or "city" in address:
                 break 
             print ("Make sure to fill in this information.")
         while True:
@@ -45,7 +45,7 @@ with open("./user_informations.txt", "w") as informations:
             f"Date of Birth: {birthday}\n"
             f"Nationality: {nationality}\n"
             f"Address: {address}\n"
-            f"Phone Number: {phone_number}\n"
+            f"Phone Number: +63 {phone_number}\n"
             f"Email Address: {email}\n"
         )
 

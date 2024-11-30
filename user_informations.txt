@@ -1,0 +1,16 @@
+Full Name: Penpen D. Sarapen
+Age: 18
+Date of Birth: 10/29/38
+Nationality: Filipino
+Address: Makati City
+Phone Number: +63 123456789
+Email Address: penpen@gmail.com
+
+Full Name: Juan Dela Cruz
+Age: 15
+Date of Birth: June 09 2008
+Nationality: Filipino
+Address: Blumentrit Makati City
+Phone Number: +63 987654321
+Email Address: juandelacruz@gmail.com
+
