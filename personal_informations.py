@@ -12,6 +12,16 @@ with open("./user_informations.txt", "w") as informations:
                 break 
             print ("Make sure to fill in this information.")
         while True:
+            birthday = input ("Date of Birth: ")
+            if birthday:
+                break 
+            print ("Make sure to fill in this information.")
+        while True:
+            nationality = input ("Nationality: ")
+            if nationality:
+                break 
+            print ("Make sure to fill in this information.")
+        while True:
             address = input ("Address: ")
             if address:
                 break 
@@ -30,13 +40,15 @@ with open("./user_informations.txt", "w") as informations:
         informations.write(
             f"Full Name: {full_name}\n"
             f"Age: {age}\n"
+            f"Date of Birth: {birthday}\n"
+            f"Nationality: {nationality}\n"
             f"Address: {address}\n"
             f"Phone Number: {phone_number}\n"
             f"Email Address: {email}\n"
         )
 
         informations.write ("\n")
-        
+
         while True:
             another_person=input("Would you like to input another person's information? (yes/no): ")
             if another_person == "yes":
