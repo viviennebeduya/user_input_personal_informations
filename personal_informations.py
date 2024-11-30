@@ -1,0 +1,6 @@
+print("Please provide the following information:")
+full_name = input ("Full Name: ")
+age = input ("Age: ")
+address = input ("Address: ")
+phone_number = input ("Phone Number: ")
+email = input ("Email Address: ")
