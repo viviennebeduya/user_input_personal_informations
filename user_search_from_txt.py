@@ -1,4 +1,4 @@
-search_input = input ("Please enter the full name to search: ")
+search_input = input ("Enter the full name to search: ")
 
 with open ("./user_informations.txt", "r") as informations:
     lines = informations.readlines()
@@ -14,5 +14,8 @@ with open ("./user_informations.txt", "r") as informations:
         if searched and not line.strip(): # searched + blank line, end
             break
 
+    else:
+        print (f"There's no {search_input} in this file.")
 
-    print (search_name)
+for list in search_name:
+    print (list.strip())
