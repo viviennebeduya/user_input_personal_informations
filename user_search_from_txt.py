@@ -17,5 +17,7 @@ with open ("./user_informations.txt", "r") as informations:
     else:
         print (f"There's no {search_input} in this file.")
 
+if searched:
+    print (f"\nHere are the informations for {search_input}: \n")
 for list in search_name:
     print (list.strip())
