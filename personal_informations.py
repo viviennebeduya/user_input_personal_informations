@@ -3,11 +3,13 @@ with open("./user_informations.txt", "w") as informations:
     full_name = input ("Full Name: ")
     age = int(input ("Age: "))
     address = input ("Address: ")
-    phone_number = int(input ("Phone Number: "))
+    phone_number = input ("Phone Number: ")
     email = input ("Email Address: ")
-
-    #print ("Please make sure to input accurate informations.")
 
     informations.write(
         f"Full Name: {full_name}\n"
+        f"Age: {age}\n"
+        f"Address: {address}\n"
+        f"Phone Number: {phone_number}\n"
+        f"Email Address: {email}\n"
     )
